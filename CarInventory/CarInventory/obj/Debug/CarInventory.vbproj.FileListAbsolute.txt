@@ -1,0 +1,12 @@
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\bin\Debug\CarInventory.exe.config
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\bin\Debug\CarInventory.exe
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\bin\Debug\CarInventory.pdb
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\bin\Debug\CarInventory.xml
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.vbprojAssemblyReference.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.Resources.resources
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.vbproj.GenerateResource.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.vbproj.CoreCompileInputs.cache
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.exe
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.xml
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.pdb
+D:\Documents\College Work\Semester 2\NETD 2202\Labs\Lab 4\CarInventory\CarInventory\obj\Debug\CarInventory.frmCarInventory.resources

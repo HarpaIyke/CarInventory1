@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CarInventory
+</name>
+</assembly>
+<members>
+<member name="T:CarInventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CarInventory.Car.#ctor">
+ <summary>
+ Default constructor: Increments the car count and sets the ID number
+ </summary>
+</member>
+<member name="M:CarInventory.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Sets all private variables based on arguments passed in
+ </summary>
+ <param name="makeValue">A car's manufacturer</param>
+ <param name="modelValue">A car's model</param>
+ <param name="yearValue">The year a car was manufactured</param>
+ <param name="priceValue">A car's price</param>
+ <param name="newValue">True if a car is new, false if not</param>
+</member>
+<member name="P:CarInventory.Car.Count">
+ <summary>
+ Returns the number of car objects
+ </summary>
+ <returns>The number of car objects</returns>
+</member>
+<member name="P:CarInventory.Car.IdentificationNumber">
+ <summary>
+ Returns a cars unique identification number
+ </summary>
+ <returns>An integer specifying this car</returns>
+</member>
+<member name="P:CarInventory.Car.Make">
+ <summary>
+ Gets and sets a car's manufacturer
+ </summary>
+ <returns>A car's manufacturer</returns>
+</member>
+<member name="P:CarInventory.Car.Model">
+ <summary>
+ Gets and sets a car's model
+ </summary>
+ <returns>A car's model</returns>
+</member>
+<member name="P:CarInventory.Car.Year">
+ <summary>
+ Gets and sets a car's year of manufacture
+ </summary>
+ <returns>A car's year of manufacture</returns>
+</member>
+<member name="P:CarInventory.Car.Price">
+ <summary>
+ Gets and sets a car's price
+ </summary>
+ <returns>A car's price</returns>
+</member>
+<member name="P:CarInventory.Car.IsNew">
+ <summary>
+ Gets and sets a flag indicating whether the car is new or not
+ </summary>
+ <returns>True if the car is new, false if not</returns>
+</member>
+<member name="M:CarInventory.Car.GetCarData">
+ <summary>
+ Returns a string describing the car
+ </summary>
+ <returns>A string decribing the car</returns>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Add the entered data into the listview if it's valid
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Set everything except the listview to it's default state
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the form
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwCars_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Makes sure the user can't check the box in the listview
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ If the user selects an item in the listview fill the appropriate controls with the relevant information
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.IsValidInput">
+ <summary>
+ Validate the input
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.PopulateList">
+ <summary>
+ Clear and then re-populate the list
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.Reset">
+ <summary>
+ Set everything except the listview to it's default state
+ </summary>
+</member>
+</members>
+</doc>
